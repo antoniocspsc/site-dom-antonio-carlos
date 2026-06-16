@@ -79,6 +79,7 @@ export function ContactForm() {
           <option>Método T.E.M.P.E.R.O.</option>
           <option>Riscos psicossociais e NR-1</option>
           <option>TDAH adulto no trabalho</option>
+          <option>TDAH em Terapia</option>
           <option>Saúde emocional de lideranças</option>
           <option>Saúde mental de professores</option>
           <option>Psicanálise para adultos</option>

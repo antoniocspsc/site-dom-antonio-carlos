@@ -65,6 +65,7 @@ export default function Home() {
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <a href="#contato" className="button-primary">Solicitar uma proposta</a>
+                <Link href="/tdah-em-terapia" className="button-primary bg-paper text-ink shadow-[0_14px_32px_rgba(255,253,248,0.2)]">TDAH em Terapia</Link>
                 <a href="#metodo" className="button-secondary">Conhecer o Método T.E.M.P.E.R.O.</a>
               </div>
             </div>

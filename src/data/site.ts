@@ -9,6 +9,7 @@ export const contact = {
 
 export const navItems = [
   { label: "Início", href: "#inicio" },
+  { label: "TDAH", href: "/tdah-em-terapia" },
   { label: "Método T.E.M.P.E.R.O.", href: "#metodo" },
   { label: "Palestras", href: "#palestras" },
   { label: "Empresas e NR-1", href: "#nr1" },
