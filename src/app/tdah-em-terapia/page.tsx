@@ -193,7 +193,9 @@ export default function TdahEmTerapiaPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/88 to-ink/38" />
           <div className="container relative grid min-h-[calc(92svh-7rem)] items-center pb-16">
             <div className="max-w-3xl">
-              <p className="eyebrow text-gold">Mentoria Arquitetura Interna</p>
+              <p className="inline-flex rounded bg-white/12 px-4 py-2 text-center text-sm font-bold uppercase text-white ring-1 ring-white/24">
+                Mentoria Arquitetura Interna
+              </p>
               <h1 className="mt-5 font-serif text-[2.5rem] font-bold leading-[1] sm:text-5xl md:text-7xl">
                 TDAH em Terapia
               </h1>

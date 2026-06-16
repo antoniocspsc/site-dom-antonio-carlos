@@ -58,6 +58,7 @@ section {
   border-radius: 4px;
   padding: 0.8rem 1.05rem;
   font-weight: 700;
+  text-align: center;
   transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
 }
 
