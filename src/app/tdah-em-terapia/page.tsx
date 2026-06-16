@@ -123,11 +123,11 @@ function Header() {
         <Link href="/" className="font-serif text-xl font-bold">
           Dom Antônio Carlos
         </Link>
-        <nav className="hidden items-center gap-4 text-sm xl:flex" aria-label="Menu principal">
+        <nav className="hidden items-center gap-3 text-sm xl:flex 2xl:gap-4" aria-label="Menu principal">
           {navItems.map((item) => {
             const href = item.href.startsWith("#") ? `/${item.href}` : item.href;
             return (
-              <Link key={item.href} href={href} className="text-white/78 transition hover:text-white">
+              <Link key={item.href} href={href} className="whitespace-nowrap text-white/78 transition hover:text-white">
                 {item.label}
               </Link>
             );

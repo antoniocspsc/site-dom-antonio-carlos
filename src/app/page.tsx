@@ -21,9 +21,9 @@ export default function Home() {
           <a href="#inicio" className="font-serif text-xl font-bold">
             Dom Antônio Carlos
           </a>
-          <nav className="hidden items-center gap-4 text-sm xl:flex" aria-label="Menu principal">
+          <nav className="hidden items-center gap-3 text-sm xl:flex 2xl:gap-4" aria-label="Menu principal">
             {navItems.map((item) => (
-              <a key={item.href} href={item.href} className="text-white/78 transition hover:text-white">
+              <a key={item.href} href={item.href} className="whitespace-nowrap text-white/78 transition hover:text-white">
                 {item.label}
               </a>
             ))}
